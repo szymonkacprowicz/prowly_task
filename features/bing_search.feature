@@ -9,10 +9,10 @@ Feature: Bing Search
      Then Content related to Prowly Media Monitoring should be displayed
 
     Scenario: Filter search results by <category> category
-     Given: User type "Prowly Media Monitoring" in searchbar
-     When: User click <button> button
-     And: User click <category> on menu under searchbar
-     Then: The search results for <category> category for "Prowly Media Monitoring" are displayed
+     Given User type "Prowly Media Monitoring" in searchbar
+     When User click <button> button
+     And User click <category> on menu under searchbar
+     Then The search results for <category> category for "Prowly Media Monitoring" are displayed
 
 
       Examples:
