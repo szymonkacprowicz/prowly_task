@@ -21,4 +21,3 @@ Feature: Bing Search
     |  News     | Search |
     |  Maps     | Search |
     |  Tools    | Search |
-
