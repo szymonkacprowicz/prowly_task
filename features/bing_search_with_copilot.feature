@@ -9,3 +9,9 @@ Feature: Bing Searching with using copilot
      And: User click on "precise" button
      When: User click "Send" button
      Then: User should see copilot answer about "Prowly Media Monitoring module"
+
+    Scenario: Search for reviews and opinions
+     Given: User types "reviews and opinions about Prowly Media Monitoring module"
+     And: User click on "creative" button
+     When: User click on "Send" button
+     Then: User should see copilot answer about "Prowly Media Monitoring module reviews and opinions"
